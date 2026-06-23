@@ -13,9 +13,8 @@ AND SpanishOccupation IN ('Administrativo','Profesional')
 ORDER BY EnglishEducation 
 
 ```
-```
 ![Imagem do resultado da Query](imagens/Captura%20de%20tela%202026-06-22%20230622.png)
-```
+
 # 🎯 Filtrando Clientes por Escolaridade e Ocupação com SQL
 
 Este código SQL foi desenvolvido utilizando o banco de dados `AdventureWorksDW2019` e tem como objetivo realizar a consulta de clientes com base em critérios específicos de escolaridade e ocupação.
