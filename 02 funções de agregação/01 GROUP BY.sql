@@ -1,0 +1,22 @@
+
+-- FUNÇÃO DE AGREGAÇÃO GROUP BY: AGRUPA ITENS, A QUANTIDADE DE LINHAS É A QUANTIDADE DE ITENS
+
+
+SELECT 
+
+	ProductKey
+
+FROM dbo.FactResellerSales
+
+GROUP BY ProductKey
+ORDER BY 1
+
+
+SELECT 
+
+	DepartmentName
+
+FROM DimEmployee
+
+GROUP BY DepartmentName
+ORDER BY 1

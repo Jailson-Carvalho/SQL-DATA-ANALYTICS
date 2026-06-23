@@ -1,0 +1,18 @@
+ 
+
+ SELECT * FROM FactResellerSales
+ 
+-- Agrupar por EmployeeKey: MIN, MAX, SUM e AVG
+
+SELECT 
+
+	EmployeeKey
+	,MIN(ExtendedAmount) VALOR_MINIMO_POR_FUNCIONARIO
+	,MAX(ExtendedAmount) VALOR_MAXIMO_POR_FUNCIONARIO
+	,SUM(ExtendedAmount) VALOR_SOMA_POR_FUNCIONARIO
+	,AVG(ExtendedAmount) VALOR_MEDIA_POR_FUNCIONARIO
+
+FROM FactResellerSales
+
+GROUP BY EmployeeKey
+ORDER BY VALOR_SOMA_POR_FUNCIONARIO DESC

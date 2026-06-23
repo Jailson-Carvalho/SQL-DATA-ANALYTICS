@@ -1,0 +1,19 @@
+
+
+-- having filtra agrupamento (A FUNÇÃO DE UM GROUP BY)
+
+SELECT 
+
+	EmployeeKey
+	--,MIN(ExtendedAmount) VALOR_MINIMO_POR_FUNCIONARIO
+	--,MAX(ExtendedAmount) VALOR_MAXIMO_POR_FUNCIONARIO
+	,SUM(ExtendedAmount) VALOR_SOMA_POR_FUNCIONARIO
+	--,AVG(ExtendedAmount) VALOR_MEDIA_POR_FUNCIONARIO
+
+FROM FactResellerSales
+
+GROUP BY EmployeeKey 
+
+HAVING SUM(ExtendedAmount) > 4000000 -- VENDEDORES QUE VENDERAM MAIS 4 MILÕES
+
+--ORDER BY VALOR_SOMA_POR_FUNCIONARIO DESC
