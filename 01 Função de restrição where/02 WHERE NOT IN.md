@@ -10,8 +10,7 @@ ORDER BY EnglishEducation
 
 ```
 
-![Imagem do resultado da Query](
-)
+![Imagem do resultado da Query](imagens/where%20not%20in.png)
 
 # 🔍 Filtrando Dados com a Cláusula NOT IN no SQL
 
