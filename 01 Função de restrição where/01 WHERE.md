@@ -14,7 +14,7 @@ ORDER BY EnglishEducation
 
 ```
 ```
-![Imagem do resuldado da Query](URL_da_imagem)
+![Imagem do resultado da Query](imagens/Captura%20de%20tela%202026-06-22%20230622.png)
 ```
 # 🎯 Filtrando Clientes por Escolaridade e Ocupação com SQL
 
