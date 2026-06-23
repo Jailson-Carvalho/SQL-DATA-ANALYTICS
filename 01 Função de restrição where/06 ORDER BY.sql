@@ -1,7 +1,0 @@
-SELECT *
-
-	
-
-FROM [dbo].[DimEmployee]
-
-ORDER BY FIRSTNAME, LASTNAME DESC
